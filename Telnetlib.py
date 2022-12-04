@@ -2,8 +2,8 @@
 import getpass #essa biblioteca pede um input do usuario e a esconde no CMD
 import telnetlib
 ## Coletando endereço do servidor e as credenciais
-servidores = "192.168.122.71"
-usuarios = input("Enter your telnet username: ")
+servidores = "XXX.XXX.XXX.XXX"
+usuarios = input("Usuario TELNET: ")
 senha = getpass.getpass()
 ## Realizando a conexão através do método Telnet e passando o endereço do servidor como Paramêtro
 tn = telnetlib.Telnet(HOST)
